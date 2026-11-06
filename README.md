@@ -10,34 +10,22 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 - **Docker Compose**: Incluido en Docker Desktop o puedes instalarlo por separado.
 
 ## Estructura del Proyecto desde la carpeta Flask
-Flask
-
-├──app
-
+```text
+.
+├──app/
 │ └── app.py
-
 │ └── clima.py
-
 │ └── dibuja.py
-
 │ └── dibujarClima.py # Lógica para consultar el clima y generar imágenes
-
 │ └── templates/
-
 │ │ └──index.html
-
 │ │ └── clima.html # Plantilla HTML para la interfaz de usuario
-
 │ └── fonts
-
 │ │ └── WinkySans.ttf
-
 │ └── requirements.txt # Dependencias de Python
-
 │ └── Dockerfile # Configuración para construir la imagen de Docker
-
 └── docker-compose.yml # Configuración para iniciar el contenedor con Docker Compose
-
+```
 
 ## Construir y Ejecutar con Docker Compose :
 Asegúrate de que Docker y Docker Compose estén instalados.
